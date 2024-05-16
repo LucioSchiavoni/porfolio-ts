@@ -19,17 +19,10 @@ export const skills_data = [
         "name":"Node Js",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     }, 
-     {
-        "name":"Nest",
-         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"
-            
-      },
       {
         "name":"Golang",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"
     },
-      
-    
     {   
         "name":"React",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -38,10 +31,6 @@ export const skills_data = [
         "name":"Next",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
-    {
-        "name":"PHP",
-        "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-    },
       {
         "name":"MySQL",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
@@ -49,10 +38,6 @@ export const skills_data = [
     {
         "name":"Mongo DB",
         "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-    },
-    {
-        "name":"Firebase",
-        "image":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     },
     {
         "name":"Bash",

@@ -3,7 +3,8 @@ import SkillCard from "../sub/SkillCard"
 
 const Skills = () => {
   return (
-    <div className='text-2xl text-white z-[20]  justify-center mt-24 grid grid-cols-3 gap-10 w-6/12 m-auto' id="skills">
+    <div className='text-2xl text-white z-[20]  justify-center mt-24 grid grid-cols-3 gap-10 w-6/12 m-auto py-20' id="skills">
+      
         {
         skills_data.map((item, index) => (
             <SkillCard 

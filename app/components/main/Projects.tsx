@@ -1,16 +1,23 @@
 import { projects_data } from "@/app/json/projects"
+import ProjectCard from "../sub/ProjectCard"
+import {motion} from 'framer-motion'
+import { slideInFromLeft } from "@/utils/motion"
 
 const Projects = () => {
   return (
-    <div className='grid grid-cols-2 gap-5 mt-24 w-6/12 m-auto ' id="projects">
+    <div  className="flex flex-col items-center justify-center py-20"
+      id="projects">
+      <h1 className="text-[60px] font-semibold text-transparent bg-clip-text py-20 bg-gradient-to-r from-purple-500 to-cyan-500 text-center"> Mis proyectos  
+      </h1>
+
+    <div className='grid grid-cols-2 gap-5 mt-24 w-6/12 m-auto '>
+
         {
             projects_data.map((item, index) => (
-                <div className="backdrop-blur py-4 button-primary text-center text-white cursor-pointer  font-semibold  gap-10 flex flex-col justify-center items-center hover:scale-110 transition-all delay-150 duration-300  p-6 rounded-md shadow-xl " key={index}>
-                    <h2>{item.name}</h2>
-                    <p>{item.image}</p>
-                </div>
+              <ProjectCard  src={item.image} title={item.name} description={item.description} stacks={item.stacks}/>
             ))
         }
+    </div>
     </div>
   )
 }

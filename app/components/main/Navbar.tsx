@@ -28,7 +28,11 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-
+    <div className='flex flex-row gap-5'>
+      <p>social things</p>
+      <p>social things</p>
+      <p>social things</p>
+    </div>
      
     </div>
   </div>

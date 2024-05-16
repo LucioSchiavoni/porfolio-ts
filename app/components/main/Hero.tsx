@@ -6,7 +6,7 @@ import Projects from './Projects'
 const Hero = () => {
   return (
     <div className='relative flex flex-col h-full w-full' id='about-me'>
-        <video 
+        {/* <video 
         autoPlay
         muted
         loop
@@ -15,7 +15,7 @@ const Hero = () => {
 
         <source src="/blackhole.webm" type="video/webm" />
 
-        </video>
+        </video> */}
         <HeroContent/>
         <Skills/>
         <Projects/>
