@@ -1,9 +1,11 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
+import Skills from './Skills'
+import Projects from './Projects'
 
 const Hero = () => {
   return (
-    <div className='relative flex flex-col h-full w-full'>
+    <div className='relative flex flex-col h-full w-full' id='about-me'>
         <video 
         autoPlay
         muted
@@ -15,6 +17,8 @@ const Hero = () => {
 
         </video>
         <HeroContent/>
+        <Skills/>
+        <Projects/>
     </div>
   )
 }

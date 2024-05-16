@@ -37,13 +37,13 @@ const HeroContent = () => {
         variants={slideInFromLeft(0.8)}
         className="text-2xl text-gray-400 my-5 max-w-[600px]"
       >
-      Desarrollador Full Stack
+      
       </motion.p>
       <motion.a
         variants={slideInFromLeft(1)}
         className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
       >
-        
+      Desarrollador Full Stack
       </motion.a>
     </div>
 
@@ -55,8 +55,8 @@ const HeroContent = () => {
         src="/perfil.jpg"
         alt="work icons"
         height={100}
-        width={400}
-        className='rounded-md object-cover'
+        width={300}
+        className='rounded-full object-cover'
       />
     </motion.div>
   </motion.div>
