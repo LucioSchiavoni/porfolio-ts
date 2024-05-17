@@ -1,11 +1,23 @@
 import { skills_data } from "@/app/json/skills"
 import SkillCard from "../sub/SkillCard"
 
+
+
 const Skills = () => {
   return (
-    <section className="py-28" id="skills" >
-        <h1 className="text-transparent text-3xl font-semibold text-center  text-white ">Para la creacion de proyectos utilizo</h1>
-    <div className='text-2xl text-white z-[20]  justify-center mt-24 gap-4 flex w-6/12 m-auto py-20' >
+   <section
+    className="flex flex-row items-center justify-center px-20 mt-40 py-20  w-full z-[20]"
+   id="skills" >
+
+    <div className="flex flex-col text-center ">
+       
+         <span className="text-transparent bg-clip-text bg-gradient-to-r text-4xl font-semibold from-indigo-800 to-cyan-500">
+          {" "}
+          Para la creacion de proyectos utilizo {" "}
+          </span>
+       
+
+    <div className='text-2xl text-white z-[20]  justify-center mt-24 gap-4 flex w-6/12 m-auto ' >
     
         {
         skills_data.map((item, index) => (
@@ -17,7 +29,7 @@ const Skills = () => {
             />
         ))
     }</div>
-
+ </div>
     </section>
 
   )

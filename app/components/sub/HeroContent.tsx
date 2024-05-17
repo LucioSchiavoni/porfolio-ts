@@ -26,7 +26,7 @@ const HeroContent = () => {
       >
         <span>
           Soy
-         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-cyan-500">
             {" "}
            Lucio Schiavoni{" "}
           </span>
