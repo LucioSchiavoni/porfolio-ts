@@ -22,9 +22,9 @@ export const projects_data = [
     },
   
     {   
-        "name":"Flags Quiz",
+        "name":"Quiz de banderas",
         "image": "/flag-quiz-2.png",
         "front": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg",
-        "description": "Juego educativo para adivinar banderas con vista mobile."
+        "description": "https://flagsquiz-chi.vercel.app"
     }
 ]

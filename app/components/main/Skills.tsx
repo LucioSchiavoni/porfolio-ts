@@ -22,6 +22,7 @@ const Skills = () => {
         {
         skills_data.map((item, index) => (
             <SkillCard 
+            key={index} 
             src={item.image}
             index={index}
             width={100}

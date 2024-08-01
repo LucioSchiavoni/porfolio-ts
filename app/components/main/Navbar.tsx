@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -31,7 +32,7 @@ const Navbar = () => {
       </div>
     <div className='flex flex-row gap-5'>
     <Link target='_blank' href='https://github.com/LucioSchiavoni' className='hover:scale-110 transition-all delay-150 duration-300'>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" className='h-10 w-10' />
+    <Image alt='nav' width={40} height={40} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" className='h-10 w-10' />
     </Link>
     <Link target='_blank' href='https://www.linkedin.com/in/lucioschiavoni' className='hover:scale-110 transition-all delay-150 duration-300'>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" className='h-10 w-10' />

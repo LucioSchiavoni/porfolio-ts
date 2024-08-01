@@ -19,7 +19,7 @@ const Projects = () => {
         {
             projects_data.map((item, index) => (
               
-                  <ProjectCard video={item.video} src={item.image} title={item.name} description={item.description} front={item.front} back={item.back}/>
+                  <ProjectCard key={index} video={item.video} src={item.image} title={item.name} description={item.description} front={item.front} back={item.back}/>
               
             
             ))
