@@ -14,11 +14,14 @@ const Projects = () => {
 
       
     
-    <div className='grid grid-cols-2 gap-5  w-6/12 m-auto '>
+    <div className='grid grid-cols-2  w-11/12 gap-24 m-auto '>
 
         {
             projects_data.map((item, index) => (
-              <ProjectCard  src={item.image} title={item.name} description={item.description} front={item.front} back={item.back}/>
+              
+                  <ProjectCard video={item.video} src={item.image} title={item.name} description={item.description} front={item.front} back={item.back}/>
+              
+            
             ))
         }
     </div>

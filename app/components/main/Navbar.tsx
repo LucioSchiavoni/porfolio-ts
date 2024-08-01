@@ -1,8 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-gradient-to-r from-[#03001417] via-cyan-600 to-cyan-800 backdrop-blur-md z-50 px-10">
     <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
       <a
         href="#about-me"
@@ -29,9 +30,13 @@ const Navbar = () => {
         </div>
       </div>
     <div className='flex flex-row gap-5'>
-      <p>social things</p>
-      <p>social things</p>
-      <p>social things</p>
+    <Link target='_blank' href='https://github.com/LucioSchiavoni' className='hover:scale-110 transition-all delay-150 duration-300'>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" className='h-10 w-10' />
+    </Link>
+    <Link target='_blank' href='https://www.linkedin.com/in/lucioschiavoni' className='hover:scale-110 transition-all delay-150 duration-300'>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" className='h-10 w-10' />
+      </Link>
+      
     </div>
      
     </div>
