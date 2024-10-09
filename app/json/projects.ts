@@ -13,18 +13,18 @@ export const projects_data = [
          "back": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
         "description": "Proyecto creado para el ministerio de Educacion y Cultura el cual se utiliza para sortear entradas de eventos del Sodre."
     },
+    {   
+        "name":"Registro de equipos",
+        "video": "/video-registroequipos.mp4",
+        "front": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg",
+        "description": "Proyecto creado para el registro de computadoras detallando las aplicaciones instaladas y la persona encargada del equipo, con la opcion de descargar el dato como pdf."
+    },
     {
         "name":"Social Unity",
         "image": "/mecs.png",
         "front":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "back": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg",
         "description": "Red Social en la que un usuario puede publicar fotos, comentarios, marcar likes, con una sección para hablar por chat en tiempo real utilizando web Sockets como tecnologia."
-    },
-  
-    {   
-        "name":"Quiz de banderas",
-        "image": "/flag-quiz-2.png",
-        "front": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg",
-        "description": "https://flagsquiz-chi.vercel.app"
     }
+  
 ]
