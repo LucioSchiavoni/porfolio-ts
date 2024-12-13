@@ -52,11 +52,11 @@ const HeroContent = () => {
       className="w-full h-full flex justify-center items-center"
     >
       <Image
-        src="/perfil.jpg"
+        src="/perfil.jpeg"
         alt="work icons"
-        height={100}
-        width={300}
-        className='rounded-full object-cover'
+        height={600}
+        width={400}
+        className='rounded-2xl'
       />
     </motion.div>
   </motion.div>

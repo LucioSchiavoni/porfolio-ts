@@ -14,10 +14,11 @@ export const projects_data = [
         "description": "Proyecto creado para el ministerio de Educacion y Cultura el cual se utiliza para sortear entradas de eventos del Sodre."
     },
     {   
-        "name":"Registro de equipos",
-        "video": "/video-registroequipos.mp4",
-        "front": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg",
-        "description": "Proyecto creado para el registro de computadoras detallando las aplicaciones instaladas y la persona encargada del equipo, con la opcion de descargar el dato como pdf."
+        "name":"Inventario MEC",
+        "video": "/video-inventarioequipos.mp4",
+        "front": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "back": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+        "description": "Inventariado de equipos del ministerio de Educacion y Cultura, con la función de poder agregar, editar y eliminar equipos, con la posibilidad de descargar un archivo pdf con el dato del equipo seleccionado."
     },
     {
         "name":"Social Unity",

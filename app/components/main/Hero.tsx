@@ -2,10 +2,11 @@ import React from 'react'
 import HeroContent from '../sub/HeroContent'
 import Skills from './Skills'
 import Projects from './Projects'
+import { HeroVideo } from '../sub/HeroVideo'
 
 const Hero = () => {
   return (
-    <div className='relative flex flex-col h-full w-full' id='about-me'>
+    <div className='' id='about-me'>
         {/* <video 
         autoPlay
         muted
@@ -18,7 +19,9 @@ const Hero = () => {
         </video> */}
         <HeroContent/>
         <Skills/>
-        <Projects/>
+           <HeroVideo/>
+          <Projects/>
+       
     </div>
   )
 }

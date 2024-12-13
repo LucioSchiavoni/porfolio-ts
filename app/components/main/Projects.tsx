@@ -9,7 +9,7 @@ const Projects = () => {
       id="projects">
        
 
-            <h1 className="text-[60px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-cyan-500 text-center py-10"> Mis   proyectos  
+            <h1 className="text-[60px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-cyan-500 text-center py-10"> Ultimos proyectos  
       </h1>
 
       
